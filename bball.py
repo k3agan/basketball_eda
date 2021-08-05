@@ -1,17 +1,20 @@
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import base64
+import pandas as pd
+import streamlit as st
+from re import S
 import subprocess
 import sys
 
+
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-install("matplotlib")
 
-from re import S
-import streamlit as st
-import pandas as pd
-import base64
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
+
+install("matplotlib")
+install("seaborn")
 
 st.title('NBA Stats Explorer')
 
