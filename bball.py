@@ -1,3 +1,10 @@
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+install("matplotlib")
+
 from re import S
 import streamlit as st
 import pandas as pd
