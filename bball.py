@@ -1,10 +1,4 @@
-from re import S
-import streamlit as st
-import pandas as pd
-import base64
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
+
 import subprocess
 import sys
 
@@ -16,6 +10,13 @@ def install(package):
 install("matplotlib")
 install("Seaborn")
 
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import base64
+import pandas as pd
+import streamlit as st
+from re import S
 
 st.title('NBA Stats Explorer')
 
