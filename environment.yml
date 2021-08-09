@@ -2,24 +2,9 @@ name: playenv
 channels:
   - conda-forge
 dependencies:
-  - python>=3.6
-  - regex
+  - conda>=4.10.3
   - seaborn
-  - matplotlib
   - pip
   - pip:
-      - altair==4.1.0
-      - astor==0.8.1
-      - blinker==1.4
-      - cachetools==4.2.2
-      - gitdb==4.0.7
-      - gitpython==3.1.18
-      - multitasking==0.0.9
-      - protobuf==3.17.3
-      - pyarrow==4.0.1
-      - pydeck==0.6.2
-      - smmap==4.0.0
       - streamlit==0.84.2
-      - tzlocal==2.1
-      - validators==0.18.2
       - yfinance==0.1.63
