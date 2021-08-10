@@ -1,15 +1,4 @@
 
-# import subprocess
-# import sys
-
-
-# def install(package):
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-
-# install("matplotlib")
-# install("Seaborn")
-
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
